@@ -1,1 +1,37 @@
 @import "fonts.css";
+
+* {
+  outline: 1px solid;
+}
+
+body {
+  background: grey;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar {
+  background: #fff;
+  padding: 20px 0;
+  color: #212121;
+}
+
+.menu__item {
+  margin-left: 37px;
+}
+
+.menu__item a {
+  font-family: "Open Sans Semibold";
+  font-size: 20px;
+  color: #212121;
+}
+
+.menu__item a:hover {
+  text-decoration: none;
+  color: #cecece;
+}

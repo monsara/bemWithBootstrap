@@ -18,11 +18,33 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Сайт на Bootstrap 4 + BEM</title>
   </head>
   <body>
+    <header class="menu-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-2">
+            <img src="img/logo.png" alt="My Landing" class="logo" />
+          </div>
+          <div class="col-xl-8 ml-auto align-self-center">
+            <nav>
+              <ul class="menu d-flex justify-content-end">
+                <li class="menu__item"><a href="#">Home</a></li>
+                <li class="menu__item"><a href="#">About</a></li>
+                <li class="menu__item"><a href="#">Servising</a></li>
+                <li class="menu__item"><a href="#">Portfolio</a></li>
+                <li class="menu__item"><a href="#">Blog</a></li>
+                <li class="menu__item"><a href="#">Contacts</a></li>
+                <li class="menu__item"><i class="fas fa-search"></i></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
